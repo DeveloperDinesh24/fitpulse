@@ -1,6 +1,7 @@
 import { StatsBar } from '../components/sections/StatsBar'
 import { HeroSection } from '../components/sections/HeroSection'
 import { Navbar } from '../components/sections/Navbar'
+import { ProblemSolution } from '../components/sections/ProblemSolution'
 
 export default function LandingPage() {
   return (
@@ -8,6 +9,7 @@ export default function LandingPage() {
       <Navbar />
       <HeroSection />
       <StatsBar />
+      <ProblemSolution />
     </div>
   )
 }

@@ -1,6 +1,6 @@
 export const StatsBar = () => {
   return (
-    <section className='py-10 border-y border-white/5 bg-white/[0.02]'>
+    <section className='py-10 border-y border-white/5 bg-white/2'>
       <div className='max-w-7xl mx-auto px-6 grid grid-cols-2 md:grid-cols-4 gap-8'>
         {[
           { label: 'Uptime', val: '99.9%' },
