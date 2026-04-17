@@ -60,7 +60,7 @@ export const Features = () => {
           className='text-4xl md:text-6xl font-black tracking-tighter uppercase mb-4'
         >
           Built for{' '}
-          <span className='text-brand text-transparent bg-clip-text bg-gradient-to-r from-brand to-lime-500'>
+          <span className='text-brand bg-clip-text bg-linear-to-r from-brand to-lime-500'>
             Performance
           </span>
         </motion.h2>

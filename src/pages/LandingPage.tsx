@@ -4,6 +4,7 @@ import { Navbar } from '../components/sections/Navbar'
 import { ProblemSolution } from '../components/sections/ProblemSolution'
 import { Features } from '../components/sections/Features'
 import { FinalCTA } from '../components/sections/FinalCTA'
+import { Footer } from '../components/sections/Footer'
 
 export default function LandingPage() {
   const fadeIn = {
@@ -21,6 +22,7 @@ export default function LandingPage() {
       <ProblemSolution fadeIn={fadeIn} />
       <Features />
       <FinalCTA fadeIn={fadeIn} />
+      <Footer />
     </div>
   )
 }
