@@ -1,14 +1,8 @@
 import { Lock } from 'lucide-react'
 import { motion } from 'framer-motion'
+import type { FadeInProps } from '../../types/fadeIn.type'
 
-export const ProblemSolution = () => {
-  const fadeIn = {
-    initial: { opacity: 0, y: 20 },
-    whileInView: { opacity: 1, y: 0 },
-    viewport: { once: true },
-    transition: { duration: 0.6 },
-  }
-
+export const ProblemSolution = ({ fadeIn }: FadeInProps) => {
   return (
     <section id='solutions' className='py-32 px-6 bg-dark'>
       <div className='max-w-7xl mx-auto'>
