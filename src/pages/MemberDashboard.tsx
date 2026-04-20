@@ -1,6 +1,7 @@
 import { About } from '../components/dashboard/About'
 import { Header } from '../components/dashboard/Header'
 import { ManagementTools } from '../components/dashboard/ManagementTools'
+import { PlanCard } from '../components/dashboard/PlanCard'
 import { LogoutButton } from '../components/ui/LogoutButton'
 
 export const MemberDashboard = () => {
@@ -12,7 +13,7 @@ export const MemberDashboard = () => {
         <ManagementTools />
         <aside className='w-80 shrink-0'>
           <div className='space-y-6 flex flex-col h-full'>
-            
+            <PlanCard />
             <LogoutButton />
           </div>
         </aside>
