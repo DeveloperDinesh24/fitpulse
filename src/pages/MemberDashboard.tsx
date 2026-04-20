@@ -12,14 +12,14 @@ export const MemberDashboard = () => {
         <Header />
         <About />
         <ManagementTools />
-        <aside className='w-80 shrink-0'>
-          <div className='space-y-6 flex flex-col h-full'>
-            <PlanCard />
-            <SystemInfoCard />
-            <LogoutButton />
-          </div>
-        </aside>
       </main>
+      <aside className='w-80 shrink-0'>
+        <div className='space-y-6 flex flex-col h-full'>
+          <PlanCard />
+          <SystemInfoCard />
+          <LogoutButton />
+        </div>
+      </aside>
     </div>
   )
 }
