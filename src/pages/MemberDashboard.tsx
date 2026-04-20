@@ -1,5 +1,6 @@
 import { About } from '../components/dashboard/About'
 import { Header } from '../components/dashboard/Header'
+import { ManagementTools } from '../components/dashboard/ManagementTools'
 
 export const MemberDashboard = () => {
   return (
@@ -7,6 +8,7 @@ export const MemberDashboard = () => {
       <main className='flex-1 space-y-8'>
         <Header />
         <About />
+        <ManagementTools />
       </main>
     </div>
   )
