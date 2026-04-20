@@ -5,6 +5,7 @@ export const ManagementTools = () => {
     'Profile Settings',
     'Direct Support',
   ]
+  
   return (
     <section>
       <h3 className='text-sm font-bold text-gray-500 uppercase tracking-wider mb-4'>

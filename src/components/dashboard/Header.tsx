@@ -7,7 +7,6 @@ export const Header = () => {
     const timer = setInterval(() => setCurrentTime(new Date()), 1000)
     return () => clearInterval(timer)
   }, [])
-  console.log(`timer updated(Member Dashboard)`)
 
   return (
     <header className='bg-card p-6 rounded-2xl border border-gray-800 flex justify-between items-center'>

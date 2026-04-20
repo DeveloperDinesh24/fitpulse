@@ -9,6 +9,7 @@ export const About = () => {
           <p>Joined: Jan 20, 2026</p>
         </div>
       </section>
+
       <section className='bg-card p-6 rounded-2xl border border-gray-800'>
         <h2 className='text-brand font-bold mb-4'>Gym Info</h2>
         <div className='space-y-2 text-sm text-gray-300'>

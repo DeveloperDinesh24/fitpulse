@@ -13,6 +13,7 @@ export const MemberDashboard = () => {
         <About />
         <ManagementTools />
       </main>
+
       <aside className='w-80 shrink-0'>
         <div className='space-y-6 flex flex-col h-full'>
           <PlanCard />

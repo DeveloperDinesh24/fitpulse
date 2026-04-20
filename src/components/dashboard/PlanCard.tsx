@@ -13,7 +13,7 @@ export const PlanCard = () => {
         </p>
         <p className='font-medium text-brand'>Oct 15, 2026</p>
       </div>
-      <button className='bg-brand text-black font-bold w-full py-3 rounded-lg hover:opacity-90 transition-opacity'>
+      <button className='bg-brand text-black font-bold w-full py-3 rounded-lg hover:opacity-90 transition-opacity cursor-pointer'>
         Manage Subscription
       </button>
     </section>
