@@ -1,14 +1,15 @@
 import './App.css'
-import { AuthPage } from './pages/AuthPage'
 // import LandingPage from './pages/LandingPage'
 import { MemberDashboard } from './pages/MemberDashboard'
+import { useAuthStore } from './stores/useAuthStore'
 
 function App() {
+  const { isAuthenticated } = useAuthStore()
+
   return (
     <>
       {/* <LandingPage /> */}
-      {/* <MemberDashboard /> */}
-      <AuthPage />
+      <MemberDashboard />
     </>
   )
 }
