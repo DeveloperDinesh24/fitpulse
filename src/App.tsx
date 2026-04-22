@@ -5,16 +5,18 @@ import { AuthPage } from './pages/AuthPage'
 import { ProtectedRoute } from './components/ProtectedRoute'
 import LandingPage from './pages/LandingPage'
 import { MemberDashboard } from './pages/MemberDashboard'
-
-const isAuthenticated = true
+import { useAuthStore } from './stores/useAuthStore'
 
 function App() {
+  const { isAuthenticated } = useAuthStore()
+
   return (
     <BrowserRouter>
       <Routes>
         <Route path='/' element={<LandingPage />} />
 
-        <Route path='/auth' element={<AuthPage />} />
+        {/* Only redirect if not authenticated */}
+        {!isAuthenticated && <Route path='/auth' element={<AuthPage />} />}
 
         <Route
           path='/dashboard'

@@ -1,7 +1,18 @@
 import { motion } from 'framer-motion'
 import { MoveRight } from 'lucide-react'
+import { useAuthStore } from '../../stores/useAuthStore'
 
 export const HeroSection = () => {
+  const { isAuthenticated } = useAuthStore()
+
+  const handleLaunch = () => {
+    if (isAuthenticated) {
+      window.location.href = '/dashboard'
+    } else {
+      window.location.href = '/auth'
+    }
+  }
+
   return (
     <section className='pt-40 pb-32 px-6 relative overflow-hidden'>
       <div className='absolute top-0 left-1/2 -translate-x-1/2 w-full h-full bg-[radial-gradient(circle_at_center,rgba(217,255,0,0.08),transparent_70%)]' />
@@ -30,7 +41,10 @@ export const HeroSection = () => {
           of the modern stack.
         </p>
         <div className='flex flex-col sm:flex-row items-center justify-center gap-6'>
-          <button className='w-full sm:w-auto px-10 py-5 bg-brand text-black font-black rounded-2xl flex items-center justify-center gap-3 group hover:bg-white transition-all hover:shadow-[0_0_30px_rgba(217,255,0,0.4)]'>
+          <button
+            onClick={handleLaunch}
+            className='w-full sm:w-auto px-10 py-5 bg-brand text-black font-black rounded-2xl flex items-center justify-center gap-3 group hover:bg-white transition-all hover:shadow-[0_0_30px_rgba(217,255,0,0.4)]'
+          >
             LAUNCH YOUR GYM{' '}
             <MoveRight className='group-hover:translate-x-2 transition-transform' />
           </button>

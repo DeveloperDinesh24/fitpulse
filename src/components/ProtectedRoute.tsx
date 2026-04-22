@@ -11,7 +11,6 @@ export const ProtectedRoute = ({
   isAuthenticated: boolean
 }) => {
   if (!isAuthenticated) {
-    // If not logged in, bounce them to the login page
     return <Navigate to='/auth' replace />
   }
   return children
