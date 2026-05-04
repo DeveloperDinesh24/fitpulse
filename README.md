@@ -1,36 +1,40 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# FitPulse
 
-## Getting Started
+> **The intelligent member dashboard for modern fitness centers.** FitPulse streamlines gym management with a clean, high-performance interface. Designed for efficiency, it allows gym owners and members to track progress and manage memberships without the clutter.
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+### 🛠 Tech Stack
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+* **Framework:** React.js + TypeScript
+* **State Management:** Zustand
+* **Backend/Auth:** Supabase
+* **Data Fetching:** TanStack Query (React Query)
+* **Styling:** Tailwind CSS
+* **Architecture:** Modular Component-Based Design
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### ✨ Key Features
 
-## Learn More
+* **Member Dashboard:** A streamlined overview for tracking member status, active subscriptions, and recent activity.
+* **Responsive UI:** Fully mobile-optimized layout, ensuring fitness managers can access data on any device.
+* **Clean State Architecture:** Leveraging Zustand for lightweight, efficient global state management.
+* **Optimized Data Fetching:** Seamless data synchronization and caching using TanStack Query.
+* **Modular Design:** A highly reusable component structure designed for scalability and maintainability.
+* **Intuitive Navigation:** A clutter-free user interface focused on productivity and clear data visualization.
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### 🚧 Work in Progress
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+* **Backend Integration:** Implementing robust database connectivity for real-time member updates.
+* **Authn/Authz:** Login/Signup feature and showing data with RLS Policies
+* **Enhanced Analytics:** Visual progress trackers and membership growth charts.
+* **Role-Based Access:** Dedicated views for Admins vs. Members.
+* *New features and performance refinements are being added regularly.*
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### Dinesh
+*Frontend Engineer*
