@@ -1,5 +1,6 @@
 import { Features } from '@/components/sections/Features'
 import { FinalCTA } from '@/components/sections/FinalCTA'
+import { Footer } from '@/components/sections/Footer'
 import { HeroSection } from '@/components/sections/HeroSection'
 import { Navbar } from '@/components/sections/Navbar'
 import { ProblemSolution } from '@/components/sections/ProblemSolution'
@@ -14,6 +15,7 @@ export default function Home() {
       <ProblemSolution />
       <Features />
       <FinalCTA />
+      <Footer />
     </div>
   )
 }
