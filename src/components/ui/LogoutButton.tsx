@@ -2,12 +2,15 @@
 
 import { LogOut } from 'lucide-react'
 import { useAuthStore } from '@/stores/useAuthStore'
+import { useRouter } from 'next/navigation'
 
 export const LogoutButton = () => {
+  const router = useRouter()
   const { logout } = useAuthStore()
 
   const handleLogout = () => {
     logout()
+    router.push('/')
   }
 
   return (
