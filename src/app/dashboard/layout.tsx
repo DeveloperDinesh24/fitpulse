@@ -1,4 +1,5 @@
 import { Header } from '@/components/dashboard/Header'
+import { SideBar } from '@/components/dashboard/SideBar'
 
 export default function DashboardLayout({
   children,
@@ -11,6 +12,10 @@ export default function DashboardLayout({
         <Header />
         {children}
       </main>
+
+      <aside className='w-80 shrink-0'>
+        <SideBar />
+      </aside>
     </div>
   )
 }
