@@ -15,7 +15,7 @@ export const FinalCTA = () => {
     <section className='py-32 px-6'>
       <motion.div
         {...fadeIn}
-        className='max-w-5xl mx-auto bg-gradient-to-br from-brand to-lime-600 rounded-[40px] p-12 md:p-20 text-center text-black relative overflow-hidden'
+        className='max-w-5xl mx-auto bg-linear-to-br from-brand to-lime-600 rounded-[40px] p-12 md:p-20 text-center text-black relative overflow-hidden'
       >
         <div className='relative z-10'>
           <h2 className='text-5xl md:text-7xl font-black tracking-tighter mb-8 uppercase leading-[0.9]'>
