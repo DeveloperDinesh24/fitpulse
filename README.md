@@ -6,7 +6,7 @@
 
 ### 🛠 Tech Stack
 
-- **Framework:** React.js + TypeScript
+- **Framework:** Next.js + TypeScript
 - **State Management:** Zustand
 - **Backend/Auth:** Supabase
 - **Data Fetching:** TanStack Query (React Query)
